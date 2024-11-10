@@ -44,7 +44,7 @@ export default defineConfig(async (): Promise<Options[]> => {
       metafile: true,
       minify: true,
       outDir: OUTPUT_DIR,
-      platform: 'browser',
+      platform: 'node',
       shims: true,
       sourcemap: 'inline',
       splitting: true,
